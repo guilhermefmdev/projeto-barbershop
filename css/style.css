@@ -15,7 +15,6 @@ body {
 }
 
 .container {
-    
     width: 1170px;
     margin: 0 auto;
 }
@@ -30,7 +29,6 @@ body {
     background-image: url(../images/bg-home.jpg);
     background-attachment: fixed;
     height: 100vh;
-    
 }
 
 .home .header {
@@ -341,7 +339,7 @@ body {
 *****************************/
 
 .gallery {
-    
+    overflow-x: auto;
     padding: 100px 0;
     background-color: var(--color-primary-light)
 }
